@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.mat-calendar-body-selected {
+    background: url('assets/truck.png');
+    background-repeat: no-repeat;
+    color: orange;
+}
+
+.mat-calendar-body-today.mat-calendar-body-selected {
+    box-shadow: none;
+}
