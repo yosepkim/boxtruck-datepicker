@@ -17,7 +17,7 @@ export class AppComponent {
   datePickerOpened(event) {
     setTimeout(() => {
       const cells = document.querySelectorAll('.mat-calendar-body-cell-content');
-      for (let cell of cells) {
+      for (let cell of <any>cells) {
         if (this.availableDates.includes(cell.textContent)) {
           cell.classList.add('available-date');
         }
