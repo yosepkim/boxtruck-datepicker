@@ -10,3 +10,12 @@
 .mat-calendar-body-today.mat-calendar-body-selected {
     box-shadow: none;
 }
+
+.mat-calendar-body-cell-content.available-date {
+    border-color: rgba(255,165,0,.38);
+}
+
+.mat-calendar-body-cell-content.available-date.mat-calendar-body-selected {
+    box-shadow: none;
+    border: none;
+}
